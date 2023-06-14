@@ -17,5 +17,5 @@ if (num >99 && num < 1000 || num > -1000 && num < -99)
 {
     num1 = num / 10;
     num2 = num1 % 10; 
-Console.WriteLine($"Ваше число = {num2}");
+Console.WriteLine($"Ваша цифра = {num2}");
 }
