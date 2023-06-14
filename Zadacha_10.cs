@@ -10,9 +10,12 @@ int num1 = 0;
 int num2 = 0;
 
 if (num < 100 || num > 999) 
+{
    Console.WriteLine($"Неверный ввод. Введите ТРЕХЗНАЧНОЕ число!");
-
+}
 if (num >99 && num < 1000 || num > -1000 && num < -99)
+{
     num1 = num / 10;
     num2 = num1 % 10; 
 Console.WriteLine($"Ваше число = {num2}");
+}
