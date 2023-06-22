@@ -14,3 +14,17 @@ int[] getArray(int size)
 
 int[] array = getArray(8);
 Console.WriteLine($"[{String.Join(",",array)}]");
+
+/*int[] getArray(int size)
+{
+    int[]result = new int[size];
+    for (int i = 0; i < size; i++)
+    {
+        Console.Write("Введите число ");
+        result[i] = int.Parse(Console.ReadLine()!);
+    }
+    return result;
+}
+
+int[] array = getArray(8);
+Console.WriteLine($"[{String.Join(",",array)}]");*/
